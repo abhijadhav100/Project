@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #eeebea;
+}
+header{
+   font-family: 'Ubuntu',sans-serif;
+   width:100%;
+   
+   
+  
+}
+header div{
+    display: flex;
+    align-items: center;
+    background-color: #17202a;
+    color: white;
+    list-style: none;
+    height: 70px;
+    width:100%;
+
+}
+.logo{
+    width:140px;
+    cursor:pointer;
+}
+.logo img{
+    width: 120px;
+    padding: 0 10px;
+}
+.location{
+    width:300px;
+    font-size:0.8rem;
+    padding: 0 10px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;  
+}
+.location:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.searchbar{
+   padding:0px 10px;
+   width: 700px;
+   background-color: #17202a;
+}
+.left-search{
+    width: 60px;
+    height: 40px;
+}
+.dropdwn{
+    width: 60px;
+    height: 40px;
+    padding: 0 10px;
+    border:none;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+}
+.mid-search{
+    width: 600px;
+    height: 40px;
+    padding: 0 30px;
+    border:none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.search-btn{
+  width: 40px;
+  height: 40px;
+  border:none;
+  background-color:  #f5b041;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.search-btn i{class="middle-search"class="middle-search"
+   opacity: 70%;
+}
+
+.menus{
+ margin-left: 0px;
+}
+.languages{
+    height: 60px;
+    width: 70px;
+    justify-content: center;
+    cursor: pointer;
+}
+.languages:hover{
+   border: 1px solid white;
+   border-radius: 2px;
+}
+.account{
+    height: 60px;
+    width: 140px;
+    font-size:0.8rem;
+    justify-content: center;
+    cursor: pointer;
+}
+.account:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.return{
+    height: 40px;
+    padding: 10px;
+    font-size:0.8rem;
+    width:80px;
+    /*justify-content:center;
+    align-items:center;*/
+}
+.return:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.cart{
+    padding: 5px;
+    height: 50px;
+    width: 70px;
+    justify-content:center;
+    align-items:center;
+   
+}
+.cart:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
